@@ -1,12 +1,22 @@
 import React from 'react'
 import './App.css'
-import UseState from './Components/Hooks/useState/useState_FunctionalComponent'
+import UseState_Functional_Comp from './Components/Hooks/useState/useState_FunctionalComponent'
+import UseState_Class_Comp from './Components/Hooks/useState/State_In_ClassComponent'
+
 
 function App() {
 
   return (
     <div className="container">
-      <UseState/>
+
+      {/*------------------------------ Hooks ---------------------------*/}
+
+      {/*============================ useState ============================*/}
+      <UseState_Functional_Comp/>
+      <br/>
+      <UseState_Class_Comp/>
+
+
     </div>
   )
 }
