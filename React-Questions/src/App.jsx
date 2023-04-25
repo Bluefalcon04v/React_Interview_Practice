@@ -11,6 +11,11 @@ import ComponentDidUpdate from './Components/Hooks/useEffect or LifeCycle Method
 import ComponentWillUnmount from './Components/Hooks/useEffect or LifeCycle Methods/On Class Components/ComponentWillUnmount'
 
 // =========================== USEEFFECTS =======================
+import ComponentDidMount_useEffect from './Components/Hooks/useEffect or LifeCycle Methods/On Functional Components/ComponentDidMount_useEffect'
+import ComponentDidUpdate_useEffect from './Components/Hooks/useEffect or LifeCycle Methods/On Functional Components/ComponentDidUpdate_useEffect'
+
+
+
 
 function App() {
 
@@ -26,13 +31,18 @@ function App() {
 
       {/*============================ useEffect ============================*/}
       {/* Class Based Components */}
-      <ComponentDidMount />
+      {/* <ComponentDidMount />
       <br/>
       <ComponentDidUpdate />
       <br/>
-      <ComponentWillUnmount /> 
+      <ComponentWillUnmount />  */}
 
+      {/* Functional Based Components */}
+      <ComponentDidMount_useEffect/>
+      <br/>
+      <ComponentDidUpdate_useEffect/>
 
+      
     </div>
   )
 }
