@@ -21,7 +21,7 @@ const ComponentDidUpdate_useEffect = () => {
 
   return (
     <div>
-        Component did Update only get execute when the page is Updated or value gets updated
+        Component did Update only get execute when the value gets changed
         <p> updating value:{count}</p>
         <button onClick={Counter}> + </button>
     </div>
