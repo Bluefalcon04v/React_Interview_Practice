@@ -1,6 +1,13 @@
 import React from 'react'
 import './App.css'
 
+// ======================== stateless_functional_component=========================
+import Stateless_functional_component from './Components/basic of Components/stateless_functional_component'
+
+// ======================== statefull_functional_component=========================
+import Statefull_class_component from './Components/basic of Components/statefull_class_component'
+
+
 // =========================== USESTATE =======================
 import UseState_Functional_Comp from './Components/Hooks/useState/useState_FunctionalComponent'
 import UseState_Class_Comp from './Components/Hooks/useState/State_In_ClassComponent'
@@ -22,6 +29,15 @@ function App() {
   return (
     <div className="container">
 
+      {/* -------------------------- Components ---------------------------- */}
+
+      {/* ================= Stateless Components ========================= */}
+      <Stateless_functional_component/>
+      {/* ================= Statefull Components ========================= */}
+      <Statefull_class_component/>
+
+
+
       {/*------------------------------ Hooks ---------------------------*/}
 
       {/*============================ useState ============================*/}
@@ -31,6 +47,7 @@ function App() {
 
       {/*============================ useEffect ============================*/}
       {/* Class Based Components */}
+
       {/* <ComponentDidMount />
       <br/>
       <ComponentDidUpdate />
@@ -38,9 +55,10 @@ function App() {
       <ComponentWillUnmount />  */}
 
       {/* Functional Based Components */}
-      <ComponentDidMount_useEffect/>
+      
+      {/* <ComponentDidMount_useEffect/>
       <br/>
-      <ComponentDidUpdate_useEffect/>
+      <ComponentDidUpdate_useEffect/> */}
 
       
     </div>
