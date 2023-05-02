@@ -51,22 +51,22 @@ function App() {
 
       {/* -------------------------- Props ---------------------------- */}
       {/* ================= In Fuctional Components ========================= */}
-      <In_Functional_Component name = " Bruce ">
+      {/* <In_Functional_Component name = " Bruce ">
          <p> I'm a Developer </p> 
       </In_Functional_Component>
       
       <In_Functional_Component name = " Charles "> 
         <p> I'm a Designer </p>
-       </In_Functional_Component>
+       </In_Functional_Component> */}
 
       {/* ================= In Class Components ========================= */}
-      <In_Class_Component name = "Sam">
+      {/* <In_Class_Component name = "Sam">
         <p> I'm Product Manager </p>
       </In_Class_Component>
 
       <In_Class_Component name = "Stark">
         <p> I'm CEO </p>
-      </In_Class_Component>
+      </In_Class_Component> */}
 
 
 
@@ -77,6 +77,7 @@ function App() {
       {/* <UseState_Functional_Comp/>
       <br/>
       <UseState_Class_Comp/> */}
+
 
       {/*============================ useEffect ============================*/}
       {/* Class Based Components */}
